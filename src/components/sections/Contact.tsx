@@ -140,7 +140,7 @@ const Contact = () => {
                   {[
                     { label: "Location", value: "India" },
                     { label: "Availability", value: "Open" },
-                    { label: "Response", value: "24–48h" },
+                    // { label: "Response", value: "24–48h" },
                   ].map((item) => (
                     <div
                       key={item.label}
