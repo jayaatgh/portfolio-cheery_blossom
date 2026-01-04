@@ -11,9 +11,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/jayaatgh", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/jayabhargavi-b-604a74210/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:jayabargavijaya@gmail.com", label: "Email" },
   ];
 
   return (
