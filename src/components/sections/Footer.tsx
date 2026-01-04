@@ -13,7 +13,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/jayaatgh", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/jayabhargavi-b-604a74210/", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:jayabargavijaya@gmail.com", label: "Email" },
+    // { icon: Mail, href: "mailto:jayabargavijaya@gmail.com", label: "Email" },
   ];
 
   return (
