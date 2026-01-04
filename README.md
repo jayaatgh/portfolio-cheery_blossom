@@ -1,49 +1,57 @@
-# 🌸 Personal Portfolio Website
+# 🌸 Jayabhargavi — Portfolio
 
-A soft, elegant, bento-style portfolio website showcasing my work as a **Software Engineer**, with a focus on **clean systems, thoughtful design, and calm user experiences**.
+A soft, friendly, and thoughtfully designed personal portfolio website.
 
-Built to feel warm, intentional, and modern — combining engineering clarity with gentle visuals.
+This site represents my work as a **Software Engineer** and **Freelance Website Builder**, focused on building calm, reliable systems and friendly web experiences that feel just right.
 
 ---
 
-## ✨ Features
+## 🔗 Live Portfolio
 
-- 🎨 **Bento-style layout** inspired by modern design systems
-- 🪟 **Glassmorphism UI** with subtle blur and soft gradients
-- 🌸 **Decorative animated elements** (flowers, floating accents)
-- 👩‍💻 **Clear sectioned storytelling**
-  - Hero
-  - About
-  - Skills
-  - Projects
-  - Experience
-  - Contact
-- 📱 Fully **responsive** across devices
-- ⚡ Smooth **scroll-based animations**
-- ♿ Accessible and readable typography
+👉 **Visit here:**  
+**https://portfolio-cheery-blossom.vercel.app/**
+
+---
+
+## ✨ About Me
+
+Hi! I’m **Jayabhargavi** 👋  
+A software engineer working full-time on scalable backend systems, and a freelance website builder helping individuals and small teams bring their ideas to life.
+
+I enjoy creating software that is:
+- Clean & maintainable
+- Calm & reliable
+- Thoughtfully designed for real users
 
 ---
 
 ## 🛠 Tech Stack
 
-**Frontend**
-- React
-- TypeScript
-- Tailwind CSS
-- Vite
-
-**UI & Animation**
-- Lucide Icons
-- Custom animation utilities
-- Intersection Observer (scroll reveal)
-
-**Design**
-- Bento grid layouts
-- Glass / soft blur surfaces
-- Pastel color palette
-- Minimal, calm motion
+- **Frontend:** React, TypeScript, Tailwind CSS  
+- **Backend & Data:** Python, Java, PySpark, ETL Pipelines  
+- **Cloud:** AWS, Azure Data Factory, Snowflake, Databricks  
+- **Tools:** Git, Vercel, VS Code  
 
 ---
 
-## 📂 Project Structure
+## 📂 Sections in the Portfolio
 
+- Hero (Intro & positioning)
+- About Me
+- Skills
+- Projects
+- Work Experience
+- Contact
+
+All sections follow a **bento-style, glassy, soft UI design** with subtle animations and floral accents.
+
+---
+
+## 🚀 Running Locally
+
+```bash
+# install dependencies
+npm install
+
+# start development server
+npm run dev
