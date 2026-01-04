@@ -57,9 +57,8 @@ const Contact = () => {
           <div
             className={`bg-gradient-to-br from-primary/20 via-primary/10 to-sky/10
             backdrop-blur-sm rounded-[2.5rem] overflow-hidden shadow-card border border-white/40
-            transition-all duration-700 ${
-              isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-            }`}
+            transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              }`}
           >
             <div className="grid md:grid-cols-2">
               {/* LEFT — FORM */}
