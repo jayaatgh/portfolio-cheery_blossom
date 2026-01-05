@@ -58,7 +58,7 @@ const Hero = () => {
               <img
                 src={pixelGirl}
                 alt="Pixel art avatar"
-                className="w-48 h-48 md:w-56 md:h-56 object-contain animate-float"
+                className="w-56 h-56 md:w-64 md:h-64 object-contain animate-float"
               />
               <div className="absolute top-0 right-0">
 

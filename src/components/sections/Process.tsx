@@ -42,7 +42,7 @@ const WebsiteSection = () => {
             ref={ref}
             className={`text-center mb-12 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
               }`}
-          >
+          > {/* -----have to remove animation------*/}
             <h2 className="font-serif text-4xl lg:text-5xl">
               Some of my Full-Stack Projects
             </h2>
