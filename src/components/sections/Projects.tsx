@@ -1,29 +1,39 @@
 import { useInView } from "@/hooks/useInView";
+import {
+  Globe,
+  ShieldCheck,
+  GitBranch,
+  ShoppingCart,
+} from "lucide-react";
 
 const projects = [
   {
-    title: "Global Price Currency Normalization Service",
+    title: "keyword-extraction-from-research-papers",
     description:
-      "Designed and implemented a backend service for cross-border price normalization, supporting multiple currencies and regions.",
-    tech: ["Python", "REST APIs", "Caching", "Business Logic"],
+      "Designed a keyword extraction system for research papers(PDF Documents), utilizing a pipeline of tokenization and pre-processing to optimize extraction accuracy.",
+    tech: ["Natural Language Processing (NLP)", "TF-IDF", "RAKE", "YAKE"],
+    icon: Globe,
   },
   {
     title: "Distributed Rate Limiting & Request Throttling System",
     description:
       "Implemented a rate-limiting service to protect backend APIs from abuse and traffic spikes.",
     tech: ["Python", "Data Structures", "Concurrency", "Algorithms"],
+    icon: ShieldCheck,
   },
   {
-    title: "Order Lifecycle State Machine with Failure Recovery",
+    title: "Dockerized Security Telemetry Ingestion Service",
     description:
-      "Designed an order processing system modeling the full order lifecycle (CREATED, PAID, SHIPPED, DELIVERED, CANCELLED).",
-    tech: ["Java", "OOP", "State Machines", "Unit Testing"],
+      "Designed a containerized microservice to ingest, validate, and store security telemetry events via REST APIs.",
+    tech: ["Pyton", "FastAPI", "Docker", "AWS"], // Python | FastAPI | Docker | AWS
+    icon: GitBranch,
   },
   {
     title: "E-Commerce Order Analytics System",
     description:
       "A cloud-native analytics platform using Redshift, DynamoDB, and serverless microservices.",
     tech: ["AWS Redshift", "DynamoDB", "AWS Lambda", "PySpark"],
+    icon: ShoppingCart,
   },
 ];
 
@@ -31,47 +41,59 @@ const Projects = () => {
   const { ref, isInView } = useInView({ threshold: 0.1 });
 
   return (
-    <section id="projects" className="py-20 lg:py-28">
+    <section id="projects" className="py-20 lg:py-24">
       <div className="container mx-auto px-6 max-w-6xl">
 
         {/* OUTER BENTO */}
         <div
           ref={ref}
-          className={`bg-primary/15 backdrop-blur-sm rounded-[2.5rem] p-8 md:p-12 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+          className={`bg-primary/15 rounded-[2.5rem] p-8 lg:p-10 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
         >
           {/* TITLE */}
           <h2 className="cherry-bomb-one-regular text-center text-4xl lg:text-5xl mb-12">
-            Selected work
+            Some of my Backend Projects
           </h2>
 
           {/* PROJECT GRID */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {projects.map((project) => (
-              <div
-                key={project.title}
-                className="bg-white/60 backdrop-blur-sm rounded-[2rem] p-6 md:p-8"
-              >
-                <h3 className="font-medium text-lg text-foreground mb-3">
-                  {project.title}
-                </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {projects.map((project) => {
+              const Icon = project.icon;
 
-                <p className="text-muted-foreground mb-5">
-                  {project.description}
-                </p>
+              return (
+                <div
+                  key={project.title}
+                  className="bg-white/60 backdrop-blur-sm rounded-[2rem] p-6 transition hover:-translate-y-1"
+                >
+                  {/* ICON */}
+                  <div className="w-10 h-10 mb-4 rounded-xl bg-primary/20 flex items-center justify-center">
+                    <Icon className="w-5 h-5 text-foreground" />
+                  </div>
 
-                <div className="flex flex-wrap gap-2">
-                  {project.tech.map((tech) => (
-                    <span
-                      key={tech}
-                      className="bg-white/80 rounded-full px-4 py-2 text-sm text-foreground"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                  {/* TITLE */}
+                  <h3 className="font-medium text-base text-foreground mb-2">
+                    {project.title}
+                  </h3>
+
+                  {/* DESCRIPTION */}
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                    {project.description}
+                  </p>
+
+                  {/* TECH STACK */}
+                  <div className="flex flex-wrap gap-2">
+                    {project.tech.map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-3 py-1 text-xs rounded-full bg-white/70 text-foreground"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
         </div>

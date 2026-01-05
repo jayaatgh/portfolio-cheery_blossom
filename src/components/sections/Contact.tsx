@@ -10,7 +10,7 @@ import woman from "@/assets/woman.png";
 import flower from "@/assets/pink-cosmos.png";
 
 const socialLinks = [
-  // { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Mail, href: "mailto:jayabargavijaya@gmail.com", label: "Email" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/jayabhargavi-b-604a74210/", label: "LinkedIn" },
   { icon: Github, href: "https://github.com/jayaatgh", label: "GitHub" },
   // { icon: Instagram, href: "https://www.instagram.com/its_me_katara_chang", label: "Instagram" },

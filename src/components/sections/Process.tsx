@@ -1,99 +1,92 @@
 import { useInView } from "@/hooks/useInView";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Database, Layers, ArrowUpRight, ShoppingCart } from "lucide-react";
 
-const steps = [
+const items = [
   {
-    number: "01",
-    title: "Understand",
-    description: "Deep dive into requirements, goals, and user needs to build a solid foundation.",
+    title: "Internal Developer Portal",
+    description: "Centralized DevEx platform for internal teams.",
+    tech: ["React", "Node.js", "MongoDB"],
+    icon: Database,
   },
   {
-    number: "02",
-    title: "Design",
-    description: "Create intuitive solutions with clean architecture and user-focused design.",
+    title: "CI/CD Visibility Platform",
+    description: "Pipeline orchestration & execution insights.",
+    tech: ["Jenkins", "Docker", "APIs"],
+    icon: Layers,
   },
   {
-    number: "03",
-    title: "Build",
-    description: "Develop clean, maintainable, and scalable code with best practices.",
+    title: "Distributed Rate Limiting",
+    description: "Concurrency-safe API protection system.",
+    tech: ["Python", "Concurrency"],
+    icon: ArrowUpRight,
   },
   {
-    number: "04",
-    title: "Improve",
-    description: "Iterate, refine, and optimize based on feedback and performance metrics.",
+    title: "E-commerce Website",
+    description: "Full-stack shopping platform (in progress).",
+    tech: ["React", "MongoDB"],
+    icon: ShoppingCart,
   },
 ];
 
-const Process = () => {
+const WebsiteSection = () => {
   const { ref, isInView } = useInView({ threshold: 0.1 });
 
   return (
-    <section id="process" className="py-20 lg:py-28 relative">
-      <div className="container mx-auto px-6">
-        <div ref={ref} className="max-w-5xl mx-auto">
-          {/* Main Card Container - Like "Culinary workshop agenda" */}
-          <div 
-            className={`bg-gradient-to-br from-primary/20 via-primary/10 to-sky/10 backdrop-blur-sm rounded-[2.5rem] p-8 md:p-12 shadow-card border border-white/40 transition-all duration-700 ${
-              isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-            }`}
-          >
-            {/* Section header */}
-            <div className="text-center mb-10">
-              <h2 className="text-3xl md:text-4xl font-serif text-foreground">
-                How I Work
-              </h2>
-            </div>
-            
-            {/* Featured Step - Large Card */}
-            <div 
-              className={`bg-white/60 backdrop-blur-sm rounded-2xl p-8 md:p-10 shadow-soft border border-white/50 mb-8 transition-all duration-700 delay-100 ${
-                isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+    <section className="py-20 lg:py-24">
+      <div className="container mx-auto px-6 max-w-6xl">
+        {/* Outer Bento */}
+        <div className="bg-primary/15 rounded-[2.5rem] p-8 lg:p-10">
+
+          {/* Title */}
+          <div
+            ref={ref}
+            className={`text-center mb-12 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
               }`}
-            >
-              <div className="flex flex-col md:flex-row md:items-center gap-6">
-                <div className="flex-shrink-0">
-                  <span className="text-6xl md:text-7xl font-serif text-primary/40">01</span>
+          >
+            <h2 className="font-serif text-4xl lg:text-5xl">
+              Some of my Full-Stack Projects
+            </h2>
+          </div>
+
+          {/* 2×2 Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {items.map((item) => (
+              <div
+                key={item.title}
+                className="bg-white/60 backdrop-blur-sm rounded-[2rem] p-6 transition hover:-translate-y-1"
+              >
+                {/* Icon */}
+                <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center mb-4">
+                  <item.icon className="w-5 h-5 text-foreground" />
                 </div>
-                <div>
-                  <h3 className="font-serif text-2xl text-foreground mb-2">{steps[0].title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{steps[0].description}</p>
+
+                {/* Content */}
+                <h3 className="font-medium text-base mb-1">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  {item.description}
+                </p>
+
+                {/* Tech */}
+                <div className="flex flex-wrap gap-2">
+                  {item.tech.map((tech) => (
+                    <span
+                      key={tech}
+                      className="px-3 py-1 text-xs rounded-full bg-white/70"
+                    >
+                      {tech}
+                    </span>
+                  ))}
                 </div>
               </div>
-            </div>
-
-            {/* Step Pills/Cards - Horizontal scroll style */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {steps.slice(1).map((step, index) => (
-                <div 
-                  key={step.number}
-                  className={`bg-white/50 backdrop-blur-sm rounded-2xl p-6 shadow-sm border border-white/40 hover:bg-white/70 transition-all duration-300 hover:-translate-y-1 ${
-                    isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-                  }`}
-                  style={{ transitionDelay: `${(index + 2) * 100}ms` }}
-                >
-                  <span className="text-2xl font-serif text-primary/40 mb-2 block">{step.number}</span>
-                  <h3 className="font-serif text-lg text-foreground mb-2">{step.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{step.description}</p>
-                </div>
-              ))}
-            </div>
-
-            {/* Navigation dots */}
-            <div className="flex justify-center gap-2 mt-8">
-              {steps.map((_, index) => (
-                <div 
-                  key={index}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    index === 0 ? 'bg-primary' : 'bg-primary/30'
-                  }`}
-                />
-              ))}
-            </div>
+            ))}
           </div>
+
         </div>
       </div>
     </section>
   );
 };
 
-export default Process;
+export default WebsiteSection;

@@ -69,7 +69,7 @@ const Hero = () => {
           {/* Description Card */}
           <div className="lg:col-span-5 bg-gradient-to-br from-sky/20 to-sky/5 backdrop-blur-sm rounded-3xl p-6 md:p-8">
             <p className="text-muted-foreground leading-relaxed opacity-0 animate-fade-in-up animation-delay-300">
-              I’m Jayabhargavi, a software engineer working full-time on scalable backend systems,
+              I’m Jayabhargavi, a software engineer working on scalable backend systems,
               and a freelance website builder helping individuals and small teams bring ideas to life.
             </p>
           </div>

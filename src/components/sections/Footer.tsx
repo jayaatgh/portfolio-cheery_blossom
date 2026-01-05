@@ -64,7 +64,7 @@ const Footer = () => {
             {/* Divider */}
             <div className="border-t border-border/30 mt-6 pt-6">
               <p className="text-center text-sm text-muted-foreground flex items-center justify-center gap-2">
-                Made with <Heart className="w-4 h-4 text-primary fill-primary" /> © {currentYear}
+                Currently evolving <Heart className="w-4 h-4 text-primary fill-primary" /> I keep improving this site as I learn and build.
               </p>
             </div>
           </div>
