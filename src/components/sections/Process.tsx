@@ -35,7 +35,7 @@ const WebsiteSection = () => {
     <section className="py-20 lg:py-24">
       <div className="container mx-auto px-6 max-w-6xl">
         {/* Outer Bento */}
-        <div className="bg-primary/15 rounded-[2.5rem] p-8 lg:p-10">
+        <div className="bg-primary/15 backdrop-blur-sm rounded-[2.5rem] p-8 lg:p-10">
 
           {/* Title */}
           <div

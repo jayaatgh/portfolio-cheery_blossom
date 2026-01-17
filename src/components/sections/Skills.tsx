@@ -45,7 +45,7 @@ const SkillsSection = () => {
               <p className="space-y-4 text-muted-foreground leading-relaxed">
                 My day job keeps me grounded in strong engineering fundamentals.
                 <br />
-                My freelance work keeps me thoughtful about users and design.
+                My Independent Project work keeps me thoughtful about users and design.
               </p>
             </div>
 

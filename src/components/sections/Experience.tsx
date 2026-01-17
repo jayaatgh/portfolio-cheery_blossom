@@ -11,7 +11,7 @@ const experiences = [
     {
         title: "Freelance Website Builder",
         company: "Castororo",
-        period: "Ongoing",
+        period: "2024 - 2025",
         description:
             "I design and build clean, friendly websites for individuals and small teams — from structure and layout to development and deployment.",
     },

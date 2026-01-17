@@ -47,7 +47,7 @@ const Projects = () => {
         {/* OUTER BENTO */}
         <div
           ref={ref}
-          className={`bg-primary/15 rounded-[2.5rem] p-8 lg:p-10 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+          className={`bg-primary/15 backdrop-blur-sm rounded-[2.5rem] p-8 lg:p-10 transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
         >
           {/* TITLE */}

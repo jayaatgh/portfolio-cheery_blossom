@@ -44,7 +44,7 @@ const About = () => {
                     I work a 9–5 as a Software Engineer, where I design and build backend systems that need to be scalable, reliable, and calm under pressure.
                   </p>
                   <p>
-                    Outside of work, I freelance as a website builder — helping founders, creators, and small teams create websites that feel warm, clear, and easy to use.
+                    Outside of my full-time role, I build side projects and web applications that focus on clean architecture, performance, and usability.
                   </p>
                   <p>
                     I enjoy bridging the gap between solid engineering and pleasant user experiences — whether that’s a data pipeline or a personal website.

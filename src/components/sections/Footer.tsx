@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               {/* Logo/Name */}
               <div className="text-center md:text-left">
-                <p className="font-serif text-lg text-foreground">Portfolio</p>
+                <p className="font-serif text-lg text-foreground">My Portfolio</p>
                 <p className="text-sm text-muted-foreground mt-1">
                   Building with purpose
                 </p>

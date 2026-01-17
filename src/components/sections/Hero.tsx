@@ -37,16 +37,17 @@ const Hero = () => {
             <div className="opacity-0 animate-fade-in-up">
               <span className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/50 backdrop-blur-sm rounded-full text-xs text-foreground font-medium mb-4">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
-                Software Engineer   |   Freelance Website Builder
+                Software Engineer   |   Full-Stack Developer
               </span>
             </div>
 
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.1] text-foreground opacity-0 animate-fade-in-up animation-delay-100">
               {/* Building calm, reliable systems — and friendly websites that feel just right. */}
+              {/* Building calm, reliable systems — across frontend and backend. */}
               Building {" "}
-              <span className="text-primary italic">calm, reliable systems</span>  — and {" "}
-              <span className="text-primary">friendly websites</span> that feel just right.
+              <span className="text-primary italic">calm, reliable and structured systems</span>  —  {" "}
+              <span className="text-primary">across frontend</span> and <span className="text-primary">backend</span>.
               {/* <br />
               & <span className="italic">thoughtful</span> systems */}
             </h1>
@@ -70,7 +71,7 @@ const Hero = () => {
           <div className="lg:col-span-5 bg-gradient-to-br from-sky/20 to-sky/5 backdrop-blur-sm rounded-3xl p-6 md:p-8">
             <p className="text-muted-foreground leading-relaxed opacity-0 animate-fade-in-up animation-delay-300">
               I’m Jayabhargavi, a software engineer working on scalable backend systems,
-              and a freelance website builder helping individuals and small teams bring ideas to life.
+              and a website builder building Full-stack websites.
             </p>
           </div>
 
