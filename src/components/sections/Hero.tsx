@@ -37,7 +37,7 @@ const Hero = () => {
             <div className="opacity-0 animate-fade-in-up">
               <span className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/50 backdrop-blur-sm rounded-full text-xs text-foreground font-medium mb-4">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
-                Software Engineer   |   Full-Stack Developer
+                Data Engineer   |   Full-Stack Developer
               </span>
             </div>
 
@@ -45,9 +45,9 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.1] text-foreground opacity-0 animate-fade-in-up animation-delay-100">
               {/* Building calm, reliable systems — and friendly websites that feel just right. */}
               {/* Building calm, reliable systems — across frontend and backend. */}
-              Building {" "}
-              <span className="text-primary italic">calm, reliable and structured systems</span>  —  {" "}
-              <span className="text-primary">across frontend</span> and <span className="text-primary">backend</span>.
+              Architecting {" "}
+              <span className="text-primary italic">scalable data ecosystems</span>  and  {" "}
+              <span className="text-primary">exploring intelligent algorithmic solutions</span><span className="text-primary"></span>.
               {/* <br />
               & <span className="italic">thoughtful</span> systems */}
             </h1>
