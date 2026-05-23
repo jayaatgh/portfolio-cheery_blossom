@@ -41,7 +41,7 @@ const About = () => {
 
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    I work as a Data Engineer , where I specialize in designing scalable Lakehouse architectures and robust ETL pipelines. My day-to-day involves building high-performance distributed systems using Spark and Databricks  that power enterprise analytics.
+                    I work as a Data Engineer , where I specialize in designing scalable Lakehouse architectures and robust ETL pipelines.
                   </p>
                   <p>
                     Outside of my 9-to-5, my passion lies in machine learning and intelligent systems. As a certified Databricks Generative AI Engineer, I am exploring NLP techniques for advanced text extraction, alongside building data-driven platforms at my startup lab, Castororo
