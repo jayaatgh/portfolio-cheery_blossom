@@ -41,13 +41,13 @@ const About = () => {
 
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    I work a 9–5 as a Software Engineer, where I design and build backend systems that need to be scalable, reliable, and calm under pressure.
+                    I work as a Data Engineer , where I specialize in designing scalable Lakehouse architectures and robust ETL pipelines. My day-to-day involves building the high-performance distributed systems using Spark and Databricks that make enterprise-scale analytics possible.
                   </p>
                   <p>
-                    Outside of my full-time role, I build side projects and web applications that focus on clean architecture, performance, and usability.
+                    Outside of my enterprise role, my passion lies in algorithmic research and intelligent systems. As a certified Databricks Generative AI Engineer, I am currently exploring NLP techniques like RAKE and TF-IDF for advanced text extraction, alongside building innovative, data-driven platforms through my startup lab, Castororo.
                   </p>
                   <p>
-                    I enjoy bridging the gap between solid engineering and pleasant user experiences — whether that’s a data pipeline or a personal website.
+                    I believe the best data solutions combine analytical rigor with intuitive design. Whether I am optimizing large-scale data workflows, designing user interfaces for local businesses, or perfecting a complex baking recipe, I am driven by the challenge of creating structured, impactful experiences.
                   </p>
                 </div>
               </div>
@@ -62,10 +62,10 @@ const About = () => {
                   <Cloud className="w-6 h-6 text-foreground" />
                 </div>
                 <h4 className="font-serif text-lg text-foreground mb-2">
-                  Cloud Expert
+                  Data Architecture
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  AWS, Azure, Snowflake & more
+                  Lakehouse, Databricks & Spark
                 </p>
               </div>
 
@@ -74,10 +74,10 @@ const About = () => {
                   <Code2 className="w-6 h-6 text-foreground" />
                 </div>
                 <h4 className="font-serif text-lg text-foreground mb-2">
-                  Clean Code
+                  Scalable Pipelines
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Maintainable & scalable solutions
+                  High-performance ETL & distributed workflows
                 </p>
               </div>
 
@@ -86,10 +86,10 @@ const About = () => {
                   <Lightbulb className="w-6 h-6 text-foreground" />
                 </div>
                 <h4 className="font-serif text-lg text-foreground mb-2">
-                  Problem Solver
+                  ML & Analytics
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Thoughtful & creative approach
+                  NLP research & GenAI applications
                 </p>
               </div>
 
