@@ -6,16 +6,16 @@ const skillCategories = [
     skills: ["Python", "Java", "C++", "SQL"],
   },
   {
-    title: "Backend & data",
-    skills: ["PySpark", "Django", "ETL Pipelines"],
+    title: "Distributed Systems",
+    skills: ["Apache Spark", "Apache Kafka", "Delta Lake", "ETL Pipelines"],
   },
   {
-    title: "Cloud platforms",
-    skills: ["AWS", "Azure Data Factory", "Snowflake", "Databricks"],
+    title: "Cloud & ML Platforms",
+    skills: ["Databricks", "Azure", "AWS", "Docker"],
   },
   {
-    title: "Engineering foundations",
-    skills: ["Data Structures", "System Design", "Data Modeling", "Git"],
+    title: "ML & Engineering",
+    skills: ["Machine Learning", "Generative AI", "Applied NLP", "System Design"],
   },
 ];
 
@@ -43,9 +43,9 @@ const SkillsSection = () => {
             {/* TOP LEFT — INTRO TEXT (WIDE) */}
             <div className="md:col-span-2 bg-gradient-to-br from-primary/20 to-primary/25 rounded-[2rem] p-8">
               <p className="space-y-4 text-muted-foreground leading-relaxed">
-                My day job keeps me grounded in strong engineering fundamentals.
+                My enterprise role keeps me grounded in scalable data infrastructure and distributed systems.
                 <br />
-                My Independent Project work keeps me thoughtful about users and design.
+                My independent research pushes me to explore intelligent algorithms, NLP, and applied machine learning.
               </p>
             </div>
 
