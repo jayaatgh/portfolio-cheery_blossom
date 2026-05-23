@@ -41,13 +41,13 @@ const About = () => {
 
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    I work as a Data Engineer , where I specialize in designing scalable Lakehouse architectures and robust ETL pipelines. My day-to-day involves building the high-performance distributed systems using Spark and Databricks that make enterprise-scale analytics possible.
+                    I work as a Data Engineer , where I specialize in designing scalable Lakehouse architectures and robust ETL pipelines. My day-to-day involves building high-performance distributed systems using Spark and Databricks  that power enterprise analytics.
                   </p>
                   <p>
-                    Outside of my enterprise role, my passion lies in algorithmic research and intelligent systems. As a certified Databricks Generative AI Engineer, I am currently exploring NLP techniques like RAKE and TF-IDF for advanced text extraction, alongside building innovative, data-driven platforms through my startup lab, Castororo.
+                    Outside of my 9-to-5, my passion lies in machine learning and intelligent systems. As a certified Databricks Generative AI Engineer, I am exploring NLP techniques for advanced text extraction, alongside building data-driven platforms at my startup lab, Castororo
                   </p>
                   <p>
-                    I believe the best data solutions combine analytical rigor with intuitive design. Whether I am optimizing large-scale data workflows, designing user interfaces for local businesses, or perfecting a complex baking recipe, I am driven by the challenge of creating structured, impactful experiences.
+                    I believe the best solutions combine analytical rigor with intuitive design. Whether I am optimizing large-scale data workflows  or designing web interfaces, I am driven to build structured, impactful experiences.
                   </p>
                 </div>
               </div>
