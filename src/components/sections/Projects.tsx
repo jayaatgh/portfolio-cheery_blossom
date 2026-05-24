@@ -8,7 +8,7 @@ import {
 
 const projects = [
   {
-    title: "keyword-extraction-from-research-papers",
+    title: "Unstructured Document Keyword Extraction (NLP)",
     description:
       "Designed a keyword extraction system for research papers(PDF Documents), utilizing a pipeline of tokenization and pre-processing to optimize extraction accuracy.",
     tech: ["Natural Language Processing (NLP)", "TF-IDF", "RAKE", "YAKE"],
@@ -22,10 +22,10 @@ const projects = [
     icon: ShieldCheck,
   },
   {
-    title: "Dockerized Security Telemetry Ingestion Service",
+    title: "Fetal-Congenital-Heart-Detection - Healthcare",
     description:
-      "Designed a containerized microservice to ingest, validate, and store security telemetry events via REST APIs.",
-    tech: ["Pyton", "FastAPI", "Docker", "AWS"], // Python | FastAPI | Docker | AWS
+      "Implemented CNN in TensorFlow for medical image classification with 89\% accuracy.",
+    tech: ["Pyton", "TensorFlow", "CNN (ResNet50)", "Scikit-learn"], // Python | FastAPI | Docker | AWS
     icon: GitBranch,
   },
   {
