@@ -6,7 +6,7 @@ const experiences = [
         company: "Cognizant",
         period: "Nov 2024 — Present",
         description: [
-            "The Enterprise Data Engine - Healthcare",
+            "(The Enterprise Data Engine - Healthcare) ",
             "I work on distributed backend and data processing systems, focusing on scalability, fault tolerance, and system reliability."
         ],
     },
@@ -15,7 +15,7 @@ const experiences = [
         company: "Castororo",
         period: "2024 - 2025",
         description: [
-            "The Innovative Builder",
+            "(The Innovative Builder) ",
             "I design and build clean, friendly websites for individuals and small teams — from structure and layout to development and deployment."
         ],
     },
@@ -24,7 +24,7 @@ const experiences = [
         company: "Shiash Info Solutions Pvt. Ltd.",
         period: "Oct 2022 — Dec 2022",
         description: [
-            "The Backend Foundation",
+            "(The Backend Foundation) ",
             "Built scalable RESTful APIs using Django and PostgreSQL to efficiently handle high-throughput data requests. Enhanced overall API performance and query efficiency by 25% through advanced indexing and data retrieval strategies."
         ],
     }
