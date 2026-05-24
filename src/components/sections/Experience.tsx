@@ -11,7 +11,7 @@ const experiences = [
         ],
     },
     {
-        title: "Founder & Full-Stack Developer",
+        title: "Co-founder & Full-Stack Developer",
         company: "Castororo",
         period: "2024 - 2025",
         description: [
