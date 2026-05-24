@@ -24,7 +24,7 @@ const experiences = [
         description:
             "The Backend Foundation"
             "Built scalable RESTful APIs using Django and PostgreSQL to efficiently handle high-throughput data requests. Enhanced overall API performance and query efficiency by 25% through advanced indexing and data retrieval strategies.",
-    },
+    }
 ];
 
 const ExperienceSection = () => {
