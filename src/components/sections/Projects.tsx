@@ -22,7 +22,7 @@ const projects = [
     icon: ShieldCheck,
   },
   {
-    title: "Fetal-Congenital-Heart-Detection - Healthcare",
+    title: "Fetal Congenital Heart Detection - Healthcare",
     description:
       "Implemented CNN in TensorFlow for medical image classification with 89\% accuracy.",
     tech: ["Pyton", "TensorFlow", "CNN (ResNet50)", "Scikit-learn"], // Python | FastAPI | Docker | AWS
