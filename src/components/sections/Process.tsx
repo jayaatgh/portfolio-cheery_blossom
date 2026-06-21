@@ -1,5 +1,5 @@
 import { useInView } from "@/hooks/useInView";
-import { Database, Layers, ArrowUpRight, ShoppingCart } from "lucide-react";
+import { Database, Layers, ArrowUpRight, ShoppingCart, BriefcaseBusiness } from "lucide-react";
 
 const items = [
   {
@@ -15,10 +15,10 @@ const items = [
     icon: Layers,
   },
   {
-    title: "Distributed Rate Limiting",
-    description: "Concurrency-safe API protection system.",
-    tech: ["Python", "Concurrency"],
-    icon: ArrowUpRight,
+    title: "Portfolio",
+    description: "Bento style, Japanese blossom website",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    icon: BriefcaseBusiness,
   },
   {
     title: "E-commerce Website",
