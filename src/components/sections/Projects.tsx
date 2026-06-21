@@ -4,6 +4,8 @@ import {
   ShieldCheck,
   GitBranch,
   ShoppingCart,
+  HeartPulse,
+  Puzzle
 } from "lucide-react";
 
 const projects = [
@@ -25,15 +27,15 @@ const projects = [
     title: "Fetal Congenital Heart Detection - Healthcare",
     description:
       "Implemented CNN in TensorFlow for medical image classification with 89\% accuracy.",
-    tech: ["Pyton", "TensorFlow", "CNN (ResNet50)", "Scikit-learn"], // Python | FastAPI | Docker | AWS
-    icon: GitBranch,
+    tech: ["Python", "TensorFlow", "CNN (ResNet50)", "Scikit-learn"], // Python | FastAPI | Docker | AWS
+    icon: HeartPulse,
   },
   {
-    title: "E-Commerce Order Analytics System",
+    title: "Automatic Differentiation Autograd Engine",
     description:
-      "A cloud-native analytics platform using Redshift, DynamoDB, and serverless microservices.",
-    tech: ["AWS Redshift", "DynamoDB", "AWS Lambda", "PySpark"],
-    icon: ShoppingCart,
+      "implements a scalar-based computational graph that tracks mathematical operations and automatically computes gradients using the chain rule.",
+    tech: ["Python", "Dynamic Computational Graph", "Topological Sorting"],
+    icon: Puzzle,
   },
 ];
 
