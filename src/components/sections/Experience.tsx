@@ -13,7 +13,7 @@ const experiences = [
     {
         title: "Co-founder & Full-Stack Developer",
         company: "Castororo",
-        period: "2024 - 2025",
+        period: "2025 - Present",
         description: [
             "(The Innovative Builder) ",
             "I design and build clean, friendly websites for individuals and small teams — from structure and layout to development and deployment."
