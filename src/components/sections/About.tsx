@@ -42,13 +42,15 @@ const About = () => {
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
                     I work as a Data Engineer , where I specialize in designing scalable Lakehouse architectures and robust ETL pipelines.
+                    As a certified Databricks Generative AI Engineer, I am exploring NLP techniques for advanced text extraction, alongside building data-driven platforms at my startup lab, Castororo
+                    I believe the best solutions combine analytical rigor with intuitive design. Whether I am optimizing large-scale data workflows  or designing web interfaces, I am driven to build structured, impactful experiences.
                   </p>
-                  <p>
+                  {/* <p>
                     As a certified Databricks Generative AI Engineer, I am exploring NLP techniques for advanced text extraction, alongside building data-driven platforms at my startup lab, Castororo
                   </p>
                   <p>
                     I believe the best solutions combine analytical rigor with intuitive design. Whether I am optimizing large-scale data workflows  or designing web interfaces, I am driven to build structured, impactful experiences.
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -77,7 +79,7 @@ const About = () => {
                   Scalable Pipelines
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  High-performance ETL & distributed workflows
+                  ETL & distributed workflows
                 </p>
               </div>
 
